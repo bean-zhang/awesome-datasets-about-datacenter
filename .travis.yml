@@ -1,0 +1,9 @@
+language: bash
+sudo: false
+
+before_install:
+  - set -e
+
+script:
+  - ag -o '([^\s()]+://[^\s()]+)' README.md | while read url; do if [[ "$url" != '' ]]; then echo "$url"; curl --output /dev/null --silent --head --fail --location --insecure "$url" || exit 1; fi; done
+

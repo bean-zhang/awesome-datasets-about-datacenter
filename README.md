@@ -1,5 +1,6 @@
 # Awesome Datasets About Datacenter (ADAD)
 ![awesome](https://cdn.rawgit.com/sindresorhus/awesome/master/media/badge.svg)
+[![Build Status](https://travis-ci.org/87boy/awesome-datasets-about-datacenter.svg)](https://travis-ci.org/87boy/awesome-datasets-about-datacenter)
 
 An awesome list of open datasets about datacenter in public domains (on-going).
 
